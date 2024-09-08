@@ -11,7 +11,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ExtentSparkReporterConfig;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReport {
+public class ExtentReport1 {
 
 	public static void main(String[] args) throws IOException {
 		
