@@ -24,7 +24,7 @@ public class HyrTutorialsXpathScreenShots {
 		
 //		TakesScreenshot ts = (TakesScreenshot)driver;
 //		driver.get("https://www.hyrtutorials.com/p/contactus.html");
-		
+//		
 //		File src = ts.getScreenshotAs(OutputType.FILE);
 //		String path = "C:\\Users\\HP\\eclipse-workspace\\GTC001\\Screenshot\\img.png";
 //		File target = new File(path);
