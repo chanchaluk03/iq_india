@@ -1,2 +1,4 @@
 # iq_india
-# GTC
+this is my first Git Repository
+</br>
+Author - Chanchal Singh Mehra
