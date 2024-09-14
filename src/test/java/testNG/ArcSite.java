@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Test
-public class ArcSite1 {
+public class ArcSite {
 	WebDriver driver = new ChromeDriver();
 
 	 
