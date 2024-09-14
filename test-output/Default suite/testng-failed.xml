@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listnersInTestNG.TestCases">
+      <class name="workingWithExcel.LoginPage">
         <methods>
-          <include name="testToscreenshot"/>
-          <include name="teardown"/>
-          <include name="timeout"/>
-          <include name="waits"/>
+          <include name="dataTest" invocation-numbers="0 2 3"/>
         </methods>
-      </class> <!-- listnersInTestNG.TestCases -->
+      </class> <!-- workingWithExcel.LoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

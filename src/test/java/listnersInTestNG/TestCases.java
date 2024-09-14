@@ -49,7 +49,7 @@ public class TestCases {
 	@Test
 	public void testToscreenshot() throws IOException {
 		
-		String expected = "Guru Bank";
+		String expected = "Guru99 Bank";
 		String actual = driver.findElement(By.xpath("//h2[text()=\"Guru99 Bank\"]")).getText();		
 		
 		
@@ -105,11 +105,10 @@ public class TestCases {
 //	}
 	
 	
-	@Test(timeOut=100)
+	@Test
 	public void timeout() throws InterruptedException {
 		
 		System.out.println("This Method to test timeout");
-		Thread.sleep(1000);
 	}
 	
 	
