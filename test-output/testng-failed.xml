@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="workingWithExcel.LoginPage">
+      <class name="log4JinTestNG.LoginTest">
         <methods>
-          <include name="dataTest" invocation-numbers="0 2 3"/>
+          <include name="siteTest"/>
         </methods>
-      </class> <!-- workingWithExcel.LoginPage -->
+      </class> <!-- log4JinTestNG.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

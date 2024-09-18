@@ -42,16 +42,16 @@ public class TestNGExcelFile {
 		
 		// for retriving data with loop..........
 		
-		for(int r=1;r<=row;r++)
-		{
-			for(int c=0;c<col;c++)
-			{
-				// if sheet have only string values .....
-				
-				System.out.println(sh.getRow(r).getCell(c).getStringCellValue());
-			}
-			System.out.println();
-		}
+//		for(int r=1;r<=row;r++)
+//		{
+//			for(int c=0;c<col;c++)
+//			{
+//				// if sheet have only string values .....
+//				
+//				System.out.println(sh.getRow(r).getCell(c).getStringCellValue());
+//			}
+//			System.out.println();
+//		}
 		
 		wb.close();
 		fis.close();

@@ -3,19 +3,14 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="testNG.LoginTest">
+      <class name="dependenciesInTestNG.TestfireSite">
         <methods>
-          <include name="verifylogin"/>
-          <include name="site"/>
           <include name="applogin"/>
+          <include name="site"/>
+          <include name="verifylogin"/>
           <include name="drclose"/>
         </methods>
-      </class> <!-- testNG.LoginTest -->
-      <class name="workingWithExcel.TestNGExcelFile">
-        <methods>
-          <include name="excelcode"/>
-        </methods>
-      </class> <!-- workingWithExcel.TestNGExcelFile -->
+      </class> <!-- dependenciesInTestNG.TestfireSite -->
       <class name="pageFactoryinTestNG.LoginTest">
         <methods>
           <include name="AppTest"/>

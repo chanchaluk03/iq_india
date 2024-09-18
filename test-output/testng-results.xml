@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-14T13:47:22 IST" name="Suite" finished-at="2024-09-14T13:47:30 IST" duration-ms="7965">
+  <suite started-at="2024-09-17T12:28:06 IST" name="Default suite" finished-at="2024-09-17T12:28:07 IST" duration-ms="163">
     <groups>
     </groups>
-    <test started-at="2024-09-14T13:47:22 IST" name="Test" finished-at="2024-09-14T13:47:30 IST" duration-ms="7965">
-      <class name="listnersInTestNG.TestCases">
-        <test-method is-config="true" signature="waits()[pri:0, instance:listnersInTestNG.TestCases@68ad99fe]" started-at="2024-09-14T13:47:22 IST" name="waits" finished-at="2024-09-14T13:47:22 IST" duration-ms="22" status="PASS">
+    <test started-at="2024-09-17T12:28:06 IST" name="Default test" finished-at="2024-09-17T12:28:07 IST" duration-ms="163">
+      <class name="dataproviderinTestNG.Demo1DArray">
+        <test-method signature="Test(java.lang.String)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:06 IST" name="Test" data-provider="coding" finished-at="2024-09-17T12:28:06 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="login()[pri:0, instance:listnersInTestNG.TestCases@68ad99fe]" started-at="2024-09-14T13:47:22 IST" name="login" finished-at="2024-09-14T13:47:29 IST" duration-ms="7512" status="PASS">
+        </test-method> <!-- Test -->
+        <test-method signature="Test(java.lang.String)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:06 IST" name="Test" data-provider="coding" finished-at="2024-09-17T12:28:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="testToscreenshot()[pri:0, instance:listnersInTestNG.TestCases@68ad99fe]" started-at="2024-09-14T13:47:29 IST" name="testToscreenshot" finished-at="2024-09-14T13:47:29 IST" duration-ms="81" status="PASS">
+        </test-method> <!-- Test -->
+        <test-method signature="Test(java.lang.String)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:06 IST" name="Test" data-provider="coding" finished-at="2024-09-17T12:28:06 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToscreenshot -->
-        <test-method signature="timeout()[pri:0, instance:listnersInTestNG.TestCases@68ad99fe]" started-at="2024-09-14T13:47:29 IST" name="timeout" finished-at="2024-09-14T13:47:29 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- Test -->
+        <test-method signature="Test2(java.lang.Object)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:06 IST" name="Test2" data-provider="obj" finished-at="2024-09-17T12:28:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[505]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:listnersInTestNG.TestCases@68ad99fe]" started-at="2024-09-14T13:47:29 IST" name="teardown" finished-at="2024-09-14T13:47:30 IST" duration-ms="261" status="PASS">
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test2(java.lang.Object)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:07 IST" name="Test2" data-provider="obj" finished-at="2024-09-17T12:28:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- listnersInTestNG.TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test2(java.lang.Object)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:07 IST" name="Test2" data-provider="obj" finished-at="2024-09-17T12:28:07 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test2(java.lang.Object)[pri:0, instance:dataproviderinTestNG.Demo1DArray@54d9d12d]" started-at="2024-09-17T12:28:07 IST" name="Test2" data-provider="obj" finished-at="2024-09-17T12:28:07 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- dataproviderinTestNG.Demo1DArray -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

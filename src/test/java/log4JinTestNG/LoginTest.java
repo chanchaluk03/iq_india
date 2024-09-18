@@ -27,6 +27,8 @@ public class LoginTest {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize(); 
+		
+		log.debug("Browser initialize");
 
 		driver.get("http://testfire.net/login.jsp");
 		Thread.sleep(1000);
@@ -34,9 +36,8 @@ public class LoginTest {
 		log.info("Application launched"); /*iska mtbl ki humara code yha tak run ho gya hai sahi se*/
 
 		driver.findElement(By.id("uid")).sendKeys("jsmith");
-		WebElement pass = driver.findElement(By.id("passw"));
-		pass.sendKeys("demo1234"); 
-		log.info("user enter login and password");
+		driver.findElement(By.id("passw")).sendKeys("demo1234"); ;
+		log.trace("user enter login id and password");
 		
 		driver.findElement(By.name("btnSubmit")).click();
 		log.info("page submitted");
@@ -47,11 +48,11 @@ public class LoginTest {
 		WebElement signoff = driver.findElement(By.xpath("//h1[starts-with(text(),'Hello')]")); 
 		if(signoff.isDisplayed())
 		{
-			log.info("user logine successfully");
+			log.info("user login successfully");
 		}
 		else
 		{
-			log.info("unable to login");
+			log.error("user unable to login");
 		}
 		driver.close();
 		

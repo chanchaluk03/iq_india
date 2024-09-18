@@ -24,7 +24,7 @@ public class AttachScreenShot {
 	@Test
 	public void log() throws IOException, InterruptedException {
 		ExtentReports extentReport = new ExtentReports();
-		File file = new File(".\\Extent-Report\\report8.html");
+		File file = new File(".\\Extent-Report\\report9.html");
 		ExtentSparkReporter spark = new ExtentSparkReporter(file);
 		
 		extentReport.attachReporter(spark);

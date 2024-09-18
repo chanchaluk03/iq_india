@@ -77,7 +77,6 @@
 </dependency>
 
 
-
   </dependencies>
 
   <build>
@@ -122,14 +121,15 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.2.5</version>
+          
           <configuration>
-			<suiteXmlFiles>
-				<suiteXmlFile>
-					listner.xml
-				</suiteXmlFile>
-			</suiteXmlFiles>
-		  </configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>listner.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					</configuration>
+          
         </plugin>
+        
         
       </plugins>
     </pluginManagement>
